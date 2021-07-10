@@ -3,5 +3,4 @@ RUN pip3 install joblib
 RUN pip3 install scikit-learn
 COPY marks.pk1 /
 COPY marks.py /
-COPY Dockerfile /
 CMD python3 marks.py
